@@ -7,7 +7,7 @@ Este proyecto es una aplicación Spring Boot que demuestra el uso de OAuth2 para
 Esta aplicación desempeña dos roles clave en el ecosistema OAuth2:
 
 ### 1. OAuth2 Client
-Como cliente OAuth2, la aplicación:
+Como cliente OAuth2, la aplicación hace:
 - Redirige a los usuarios al servidor de autorización (en `127.0.0.1:9000`) cuando intentan acceder a recursos protegidos sin autenticación.
 - Obtiene tokens de acceso del servidor de autorización tras el login exitoso del usuario.
 - Almacena los tokens para futuras peticiones y los renueva cuando expiran.
